@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+.github
+.venv
+venv
+__pycache__
+*.pyc
+agrisight.db
+.env*
