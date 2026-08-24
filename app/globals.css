@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #e7f5e9;
+  background:
+    radial-gradient(circle at 5% 0%, rgba(34, 197, 94, 0.16), transparent 30%),
+    radial-gradient(circle at 95% 10%, rgba(14, 165, 233, 0.13), transparent 28%),
+    #06120b;
+}
+
+button, input {
+  font: inherit;
+}
+
+.panel {
+  @apply rounded-2xl border border-emerald-900/60 bg-slate-950/65 shadow-2xl shadow-black/20 backdrop-blur;
+}
+
+.metric-card {
+  @apply rounded-xl border border-white/5 bg-white/[0.035] p-4;
+}
+
+.grid-cell {
+  @apply transition-all duration-300 hover:scale-105 hover:ring-2 hover:ring-white/40;
+}
