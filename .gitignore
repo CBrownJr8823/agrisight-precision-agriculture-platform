@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+*.log
+.env
+.env.local
+__pycache__
+*.py[cod]
+.venv
+venv
+agrisight.db
+*.sqlite
+.DS_Store
